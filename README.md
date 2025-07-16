@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=450&size=40&duration=4000&pause=1000&center=true&vCenter=true&width=600&lines=Welcome+to+my+Github;Have+a+nice+day!!)
 <!--
 **DIXEST/DIXEST** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
