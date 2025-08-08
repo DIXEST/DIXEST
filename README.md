@@ -2,7 +2,7 @@
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=450&size=40&duration=4000&pause=1000&center=true&vCenter=true&width=650&lines=Welcome+to+my+DIXEST+Github;Have+a+nice+day!!)
 # 🔭 I’m currently working on
-![TEST](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0fc7/8630692/9e71c6cecd23/fimmu-12-743700-g004.jpg" alt="태반과 TBK1 연관 확인" width="300",height="300")
+<img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0fc7/8630692/9e71c6cecd23/fimmu-12-743700-g004.jpg" alt="태반과 TBK1 연관 확인" width="300">
 
 <!--
 **DIXEST/DIXEST** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
