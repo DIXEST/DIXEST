@@ -27,8 +27,8 @@
 - **Cancers (2020) IF= 6.126**  
   mTOR-Dependent Role of Sestrin2 in Regulating Tumor Progression of Human Endometrial Cancer
 
-- **Frontiers in Immunology (2021) IF= 7.561**  
-  Targeting TBK1 Attenuates LPS-Induced NLRP3 Inflammasome Activation by Regulating of mTORC1 Pathways in Trophoblasts
+- **Cells (2020) IF= 5.656**  
+  SIRT1 Alleviates LPS-Induced IL-1β Production by Suppressing NLRP3 Inflammasome Activation and ROS Production in Trophoblasts
 
 # 실험 기법 및 분석 도구
 
