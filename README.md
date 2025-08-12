@@ -18,11 +18,11 @@
 
 ## First author Publish Journal
 
+- **International Journal of Biological Sciences (2025), **IF= 10****  
+  TBK1 inhibitor amlexanox exerts anti-cancer effects against endometrial cancer by regulating AKT/NF-κB signaling
+
 - **Frontiers in Immunology (2021) IF= 7.561**  
   Targeting TBK1 Attenuates LPS-Induced NLRP3 Inflammasome Activation by Regulating of mTORC1 Pathways in Trophoblasts
-
-- **International Journal of Biological Sciences (2025), IF= 10**  
-  TBK1 inhibitor amlexanox exerts anti-cancer effects against endometrial cancer by regulating AKT/NF-κB signaling
 
 - **Cancers (2020) IF= 6.126**  
   mTOR-Dependent Role of Sestrin2 in Regulating Tumor Progression of Human Endometrial Cancer
@@ -46,9 +46,3 @@
 | Immunology                |           |                         | 백화점 OPI 및 아이룩         |              |
 | Xenograft 모델 구축       |           |                         | 의류판매                      |              |
 
-# 나의 장점
-
-어렸을때부터 끊임없이 아르바이트들을 해오며 서비스정신과 약간의 사회경험을 얻었으며 
-석사과정과 박사과정을 7년동안 하는 것으로 목표를 이루고자 하는 끈기를 보여주었다.
-박사과정이 끝나자마자 취업시장에 달려들었으나 부족함을 깨닫고 사회에서 원하는 인재가 되기위해 바로 AI개발 교육과정에 들어왔으며 자기개발을 꾸준히 한다.
-늘 자의적이든 타의적이든 보통 그룹의 리더를 되었으며 대부분의 모든 사람의 충돌없이 잘 지내왔고 항상 이를 잘 유지해왔다.
