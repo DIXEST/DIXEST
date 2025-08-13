@@ -1,3 +1,5 @@
+# 5조 조장 신지하  팀원 신종혁, 윤재성, 장재호
+# 도서관리 대출 프로그램을 DB와 연결해서 작업업
 import pymysql
 import datetime
 from datetime import datetime, timedelta
@@ -32,7 +34,7 @@ class Input_data:
         blacklist = 'N'
 
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8', use_unicode=True,
             cursorclass=pymysql.cursors.DictCursor)
         cursor = conn.cursor()
@@ -56,7 +58,7 @@ class Input_data:
         books_borrowed = 'N'
 
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8', use_unicode=True,
             cursorclass=pymysql.cursors.DictCursor)
         cursor = conn.cursor()
@@ -72,7 +74,7 @@ class Output_data(Input_data):
     #모든 유저 확인
     def all_user(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8')
         
         cursor = conn.cursor()
@@ -85,7 +87,7 @@ class Output_data(Input_data):
     #유저 한명 확인
     def one_user(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8')
         find = input("이름을 입력하시오: ")
         cursor = conn.cursor()
@@ -101,7 +103,7 @@ class Output_data(Input_data):
     #모든 책 확인
     def all_books(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8')
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM Books")
@@ -114,7 +116,7 @@ class Output_data(Input_data):
     #책 하나 확인
     def one_books(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8')
         find = input("책 이름 또는 저자 또는 장르(100:경제, 200:소설, 300:인문, 400:추리, 500:요리, 600:만화, 700:아동)을 입력하시오: ")
         cursor = conn.cursor()
@@ -131,7 +133,7 @@ class Output_data(Input_data):
     #유저 수정
     def update_user(self):
         conn = pymysql.connect(
-        host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+        host='**.***.***.***', port=****, user='*********', password='*********',
         db='library_assignment', charset='utf8')
         try:
             with conn.cursor() as cur:
@@ -171,7 +173,7 @@ class Output_data(Input_data):
     #책 수정
     def update_book(self):
         conn = pymysql.connect(
-        host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+        host='**.***.***.***', port=****, user='*********', password='*********',
         db='library_assignment', charset='utf8', use_unicode=True,
         cursorclass=pymysql.cursors.DictCursor)
         try:
@@ -216,7 +218,7 @@ class Output_data(Input_data):
     #유저 삭제
     def delete_user(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8', use_unicode=True,
             cursorclass=pymysql.cursors.DictCursor)
         num1 = int(input("삭제할 유저의 번호를 입력하세요: "))
@@ -232,7 +234,7 @@ class Output_data(Input_data):
     #책 삭제
     def delete_book(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8', use_unicode=True,
             cursorclass=pymysql.cursors.DictCursor)
         num2 = int(input("삭제할 책의 번호를 입력하세요: "))
@@ -249,7 +251,7 @@ class Output_data(Input_data):
     #Borrow_Log에 있는 borrowed가 'Y' 일 때 책이 빌려지고 일주일 뒤에 user DB에 있는 user_delayed와  Delayed DB에 있는 times 를 1씩 증가시키는 함수
     # def delayed_book(self):
     #     conn = pymysql.connect(
-    #         host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+    #         host='**.***.***.***', port=****, user='*********', password='*********',
     #         db='library_assignment', charset='utf8', use_unicode=True,
     #         cursorclass=pymysql.cursors.DictCursor)
     #     cursor = conn.cursor()
@@ -287,7 +289,7 @@ class Output_data(Input_data):
     # 연체자 및 블랙리스트 확인
     def bad_user(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8', use_unicode=True,
             cursorclass=pymysql.cursors.DictCursor)
         find = input("이름을 입력하시오: (연체자 확인은 a, 블랙리스트 확인은 b) ")
@@ -323,7 +325,7 @@ class Output_data(Input_data):
     #특정 유저 대출 현황 조회
     def specific(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8', use_unicode=True,
             cursorclass=pymysql.cursors.DictCursor)
         find = input("유저 id를 입력하시오: ")
@@ -340,7 +342,7 @@ class Output_data(Input_data):
     #모든 빌린 책 확인
     def allrentbook(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8', use_unicode=True,
             cursorclass=pymysql.cursors.DictCursor)
         cursor = conn.cursor()
@@ -370,7 +372,7 @@ class Output_data(Input_data):
     #책 빌리기
     def book_rent(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8', use_unicode=True,
             cursorclass=pymysql.cursors.DictCursor)
         cursor = conn.cursor()
@@ -409,7 +411,7 @@ class Output_data(Input_data):
     #책 반납
     def book_return(self):
         conn = pymysql.connect(
-            host='34.171.242.249', port=3306, user='acorm', password='acorm1234',
+            host='**.***.***.***', port=****, user='*********', password='*********',
             db='library_assignment', charset='utf8', use_unicode=True,
             cursorclass=pymysql.cursors.DictCursor)
         cursor = conn.cursor()
